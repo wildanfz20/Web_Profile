@@ -1,0 +1,221 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    background-color: #1d71ba;
+    box-shadow: 0.1px 0.1px 5px;
+    padding: 0px 5%;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 750;
+    
+}
+
+nav ul li a:hover{
+    color: #e26274;
+}
+
+.home p{
+    margin: 50px 5px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: #e26274;
+    transform: translate(30%, 300%);
+}
+
+.home{
+    height: 90vh;
+}
+
+.tentangsaya{
+    height: 45vh;
+    background-color: #e26274;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.tentangsaya-deskripsi p:nth-child(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    transform: translate(0%, 180%);
+}
+.tentangsaya-deskripsi p:nth-child(2){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    transform: translate(0%, 125%);
+}
+
+.wildan{
+    border-radius: 50%;
+}
+
+.tentangsaya2{
+    background-color: #1d71ba;
+    height: 80vh;
+    display: flex;
+    flex: 50%;
+}
+
+.tentangsaya2 p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    transform: translate(200%, 50%)
+}
+.kegiatan{
+    height: 35vh;
+    background-color: #1d71ba;
+    display: flex;
+}
+
+.kegiatan-deskripsi p:nth-child(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    transform: translate(4%);
+}
+
+.kegiatan-deskripsi p:nth-child(2){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    transform: translate(4%);
+}
+
+
+.persada-deskripsi p:nth-child(2){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e26274;
+    font-size: 25px;
+    transform: translate(3%);
+}
+
+
+.persada-deskripsi p:nth-child(3){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e26274;
+    font-size: 15px;
+    text-align: Justify;
+    margin: 40px 40px;
+}
+
+.persada-deskripsi img{
+    width: 250px;
+    height: auto;
+}
+
+.fkdk-deskripsi p:nth-child(2){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e26274;
+    font-size: 25px;
+    transform: translate(3%);
+}
+
+
+.fkdk-deskripsi p:nth-child(3){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#e26274;
+    font-size: 15px;
+    text-align: Justify;
+    margin: 40px 40px;
+}
+
+.fkdk-deskripsi img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.kegiatan-persada{
+    display: flex;
+    flex: 33%;
+    padding: 25px;
+    margin: 30;
+}
+
+.persada-kolom img{
+    width: 430px;
+    height: auto;
+}
+
+.garis{
+    background-color: #1d71ba;
+}
+
+
+.kegiatan-fkdk{
+    display: flex;
+    flex: 33%;
+    padding: 25px;
+    margin: 30;
+}
+
+.fkdk-kolom img{
+    width: 430px;
+    height: auto;
+}
+
+footer{
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: #e26274;
+    box-shadow: 0.1px 0.1px 5px;
+    padding: 0px 5%;
+}
+
+footer p {
+    margin: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 750;
+    transform: translate(65%);
+}
+
+.sosmed{
+    display: flex;
+    transform: translate(60%);
+}
+
+.sosmed-kolom p{
+    font-size: 12px;
+}
+
+.sosmed-kolom img{
+    width: 12px;
+}
